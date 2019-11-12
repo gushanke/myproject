@@ -22,3 +22,15 @@ urlpatterns = [
     path(r'', TemplateView.as_view(template_name = "index.html")),
     path('api/', include('projectApp.urls')),
 ]
+
+
+
+# from django.views.generic import TemplateView
+# import myapp.urls
+ 
+# urlpatterns = [
+#     url(r'^admin/', admin.site.urls),
+#     url(r'^api/', include(myapp.urls)),
+#     url(r'^$', TemplateView.as_view(template_name="index.html")),
+# ]
+
